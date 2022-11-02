@@ -1,0 +1,19 @@
+.box{
+  background-color: #ffffff;
+  width: 97%
+  margin: auto;
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+a:link, a:visited {
+  color: #5fb2af;
+  text-decoration: none;
+}
+
+body{
+  background-color: #E4f2f2;
+
+}

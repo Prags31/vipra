@@ -1,0 +1,61 @@
+#box{
+    text-align:center;
+        width:98%;
+        margin:auto;
+    }
+    #bigbox{
+   width:98%;
+   background-color: #ffffff;
+   display:flex; 
+   margin:50px 10px 15px ; 
+    }
+    #box1{
+        width:50%;
+        float:left;
+        text-align: center;
+        padding:50px 10px 50px 50px;
+    margin:0px auto;
+    }
+    #box2{
+        width:50%;
+    padding:50px 10px;
+    float:right;
+    }
+    input[type=text],textarea{
+        margin:10px 0px 10px 0px;
+        padding:7px 7px;
+        width:350px;
+        border-radius:5px;
+    }
+    
+    #box21{
+        margin:30px 0;
+        float:left;
+        width:45%;
+    }
+    #box222
+    {
+        float: right;
+        margin: 30px 0;
+        width: 55%;
+    }
+
+    #box22{
+        margin:10px 0;
+        padding:10px 5px;
+    }
+
+    hr{
+        width:150px;
+        
+    }
+    .icon{
+        color:black;
+    }
+    .image{
+        text-decoration:none;
+    }
+    #bb{
+        background-color: #E4f2f2;
+    }
+    

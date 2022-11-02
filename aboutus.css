@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #E4f2f2;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.image{
+object-fit: fill;
+height: 200px;
+width: 380px;
+}*/
+
+.column {
+  background-color: #ffffff;
+width: 25%
+  padding: 0px 25px 0px 25px;
+  display: inline-block;
+ margin: auto;
+ margin-left: 25px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 20px;
+padding:25px;
+  text-align: center;
+margin: auto;
+}
+
+/*change some csss in row class and increse 5px padding in column class*/
+.row1{
+  margin:auto;
+  width:98%;
+  padding:5px 0px 5px 210px;
+  background-color: #ffffff;
+  display:flex;  
+}
+
+.row2{
+  margin:auto;
+  width:98%;
+margin-bottom:15px;
+  background-color: #ffffff;
+  padding:15px;
+  margin-left:8px;
+  margin-right:8px;
+}
+
+.about-section {
+  padding: 10px;
+  font-family: Georgia, serif;
+  text-align: center;
+ /* background-color: #ffffff;*/
+  color: black;
+  /*width:95%;*/
+  margin:auto;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+ }
+
+.title {
+  color: grey;
+}
+
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}

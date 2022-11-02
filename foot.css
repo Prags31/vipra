@@ -1,0 +1,117 @@
+.bigb{
+    background-color:darkgray;
+height:500px;
+}
+.btmbox1{
+    width:350px;
+    height:400px;
+    float:left;
+color:white;
+}
+.btmbox2{
+    overflow:hidden;
+    width:350px;
+    height:400px;
+    padding:5px 5px;
+    float:left;
+
+}
+.btmbox2 a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+padding:10px 10px 10px 10px;
+color:white;
+display:inline-block;
+border:2px solid white;
+margin:10px;
+transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+  .btmbox2button:hover {
+    background-color: #696969;
+    color: white;
+  }
+  
+.btmbox3{
+    overflow:hidden;
+    width:300px;
+    height:400px;
+    float:left;
+}
+.btmbox31{
+    margin:10px;
+    width:100%;
+    height:25%;
+}
+.btmbox311{
+    float:left;
+    width:20%;
+}
+
+.btmbox312{
+    overflow: hidden;
+    width:70%;
+    align:center;
+color:white;    
+}
+.btmbox4{
+    overflow:hidden;
+    width:250px;
+    height:400px;
+    padding:5px 5px;
+    
+
+}
+
+.btmbox4 a{
+    
+    text-decoration: none;
+    font-size: 20px;
+padding:5px;
+display:inline-block;
+
+margin:5px;
+}
+.btmbox4 ul {
+    list-style-type: none;
+    
+}
+.btmbox4 ul li a{
+    color:white;
+}
+.circle-icon{
+    border-radius:50%;
+    padding:5px;
+    border-style: solid;
+}
+.btmbox11{
+    font-size: 20px;
+    margin:10px;
+    padding:5px;
+}
+.btmbox11 a{
+    text-decoration: none;
+    color:white;
+
+}
+.boxlinkf{
+    width:100%;
+    background-color:black;
+    text-align:center;
+    padding:10px 5px;
+    color:white;
+}
+
+.boxlinkf ul li{
+    list-style-type: none;
+    
+    display: inline-block;
+}
+.boxlinkf  a{
+    text-decoration:none;
+    color:white;
+    padding: 5px;
+    
+}
